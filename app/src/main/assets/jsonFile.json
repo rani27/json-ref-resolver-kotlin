@@ -1,0 +1,25 @@
+{
+ "version": "1.0",
+ "info": {
+  "title": "This is dummy title",
+  "description": "Contains the remote configuration values"
+ },
+ "modules":
+  {
+   "isEnabled": {
+    "$ref": "#/definition/features/errorPage"
+   },
+   "id": "errorPage",
+   "title": {
+    "$ref": "#/definition/translations/title_text"
+   }
+  },
+ "definition": {
+  "features": {
+   "errorPage": true
+  },
+  "translations": {
+   "title_text": "This is title text"
+  }
+ }
+}

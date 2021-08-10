@@ -1,0 +1,2 @@
+rootProject.name = "JsonRefResolver"
+include ':app'
